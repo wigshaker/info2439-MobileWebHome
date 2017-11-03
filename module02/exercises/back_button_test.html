@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Back Button Test</title>
+    <meta charset="utf-8">
+  	<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+  	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  </head>
+
+  <body>
+  <!--
+    Clay Caylor
+    back_button_test.html
+    Info2439.8A
+    Brown
+    09/19/2017
+  -->
+    <div data-role="page">
+
+      <div data-role="header">
+        <h1>My Header</h1>
+      </div>
+
+      <div role="main" class="ui-content">
+        <p>
+        <a href="#subpage">Go to the sub page...</a>
+        </p>
+      </div>
+
+    </div>
+
+    <div data-role="page" id="subpage">
+
+      <div data-role="header" data-add-back-btn="true">
+        <h1>SubPage</h1>
+      </div>
+
+      <div role="main" class="ui-content">
+        <p>
+        <a href="" data-rel="back">Go back...</a>
+        </p>
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

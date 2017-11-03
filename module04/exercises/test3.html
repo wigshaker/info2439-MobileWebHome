@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>test3</title>
+    <meta charset="utf-8">
+  	<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+  	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+  </head>
+
+  <body>
+  <!--
+    Clay Caylor
+    test3.html
+    Info2439.8A
+    Brown
+    10/04/2017
+  -->
+    <div data-role="page">
+
+      <div data-role="header">
+        <h1>Form Demo</h1>
+      </div>
+
+      <div role="main" class="ui-content">
+        <form action="echo.html" method="post">
+          <fieldset data-role="controlgroup">
+            <legend>Favorite Movie:</legend>
+            <input type="radio" name="favoritemovie" id="favoritemovie1" value="Star Wars">
+            <label for="favoritemovie1">Star Wars</label>
+            <input type="radio" name="favoritemovie" id="favoritemovie2" value="Vanilla Sky">
+            <label for="favoritemovie2">Vanilla Sky</label>
+            <input type="radio" name="favoritemovie" id="favoritemovie3" value="Inception">
+            <label for="favoritemovie3">Inception</label>
+          </fieldset>
+          <fieldset data-role="controlgroup">
+            <legend>Favorite Color:</legend>
+            <input type="checkbox" name="favoritecolor" id="favoritecolor1" value="Green">
+            <label for="favoritecolor1">Green</label>
+            <input type="checkbox" name="favoritecolor" id="favoritecolor2" value="Red">
+            <label for="favoritecolor2">Red</label>
+            <input type="checkbox" name="favoritecolor" id="favoritecolor3" value="Yellow">
+            <label for="favoritecolor3">Yellow</label>
+          </fieldset>
+          <input type="submit" name="submit" value="Send">
+        </form>
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

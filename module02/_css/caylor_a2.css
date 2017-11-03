@@ -1,0 +1,14 @@
+/* Clay Caylor
+  caylor_a2.css
+  Info2439.8A
+  Brown
+  09/20/2017
+*/
+
+body {font-family: arial, sans-serif;}
+
+.ui-footer h4 {font-style: italic;}
+
+div#rmobileApp1 h2, div#rmobileApp2 h2, div#rmobileApp3 h2 {text-align: center;}
+
+.ui-bar-a {border-color: DarkOrange;}

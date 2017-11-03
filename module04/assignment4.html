@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Clay Caylor | Info2439 | Assignment 4</title>
+    <meta charset="utf-8">
+  	<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+  	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+    <link rel="stylesheet" href="themes/SageForm1.min.css">
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="_css/assignment4.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+  </head>
+
+  <body>
+  <!--
+    Clay Caylor
+    assignment4.html
+    Info2439.8A
+    Brown
+    10/04/2017
+  -->
+    <div data-role="page" data-theme="a" data-title="Clay Caylor | Info2439 | Assignment #4">
+
+      <div data-role="header" data-position="fixed">
+        <a href="../default.html" data-icon="home" data-ajax="false">Home</a>
+        <h1>Clay Caylor</h1>
+      </div>
+
+      <div role="main" class="ui-content">
+
+        <h3>Assignment #4</h3>
+        <h2>Bistro Customer Survey</h2>
+
+        <form action="bistrosurvey_insert.php" method="post">
+          <div class="ui-field-contain">
+            <label for="meal_rate">How would you rate your meal today?</label>
+            <select id="meal_rate" name="meal_rate">
+              <option value="1">1-Poor</option>
+              <option value="2">2-Needs Work</option>
+              <option value="3">3-Fair</option>
+              <option value="4">4-Good</option>
+              <option value="5">5-Excellent</option>
+            </select>
+          </div>
+
+          <div class="ui-field-contain">
+            <label for="service_rate">How would you rate your service today?</label>
+            <select id="service_rate" name="service_rate">
+              <option value="1">1-Poor</option>
+              <option value="2">2-Needs Work</option>
+              <option value="3">3-Fair</option>
+              <option value="4">4-Good</option>
+              <option value="5">5-Excellent</option>
+            </select>
+          </div>
+
+          <div class="ui-field-contain">
+            <label for="overall_exp">How would you rate overall experience today?</label>
+            <select id="overall_exp" name="overall_exp">
+              <option value="1">1-Poor</option>
+              <option value="2">2-Needs Work</option>
+              <option value="3">3-Fair</option>
+              <option value="4">4-Good</option>
+              <option value="5">5-Excellent</option>
+            </select>
+          </div>
+
+          <div class="ui-field-contain">
+            <fieldset data-role="controlgroup" data-type="horizontal">
+              <legend>Would you recommend this restaurant to a friend?</legend>
+              <input type="checkbox" name="recommend_rest" id="yes" value="Yes">
+                <label for="yes">Yes</label>
+              <input type="checkbox" name="recommend_rest" id="no" value="No">
+                <label for="no">No</label>
+            </fieldset>
+          </div>
+
+          <div class="ui-field-contain">
+            <label for="bname">Name:</label>
+            <input type="text" name="bname" id="bname" value="">
+          </div>
+
+          <div class="ui-field-contain">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" value="">
+          </div>
+
+          <br>
+          <input type="submit" name="submit" value="Send">
+
+        </form>
+
+      </div>
+
+      <div data-role="footer" data-position="fixed">
+        <h4>Created by: <a href="mailto:cccayloriii@mail.mccneb.edu">Clay Caylor</a></h4>
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>test9</title>
+    <meta charset="utf-8">
+  	<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+  	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+
+  </head>
+
+  <body>
+  <!--
+    Clay Caylor
+    test9.html
+    Info2439.8A
+    Brown
+    10/04/2017
+  -->
+    <style>
+    .custom-size-flipswitch.ui-flipswitch .ui-btn.ui-flipswitch-on {
+        text-indent: -5.9em;
+    }
+    .custom-size-flipswitch.ui-flipswitch .ui-flipswitch-off {
+        text-indent: 0.5em;
+    }
+    /* Custom widths are needed because the length of custom labels differs from
+       the length of the standard labels */
+    .custom-size-flipswitch.ui-flipswitch {
+        width: 8.875em;
+    }
+    .custom-size-flipswitch.ui-flipswitch.ui-flipswitch-active {
+        padding-left: 7em;
+        width: 1.875em;
+    }
+    @media (min-width: 28em) {
+        /* Repeated from rule .ui-flipswitch above */
+        .ui-field-contain > label + .custom-size-flipswitch.ui-flipswitch {
+            width: 1.875em;
+        }
+    }
+    </style>
+
+    <div data-role="page">
+
+      <div data-role="header">
+        <h1>Form Demo</h1>
+      </div>
+
+      <div role="main" class="ui-content">
+
+        <form action="echo.html" method="post">
+
+          <label for="test">Test:</label>
+          <input type="checkbox" name="test" id="test" data-role="flipswitch">
+
+          <label for="gender">Gender:</label>
+          <input type="checkbox" name="gender" id="gender" data-role="flipswitch"
+            data-off-text="Male" data-on-text="Female" data-wrapper-class="custom-size-flipswitch">
+
+        </form>
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

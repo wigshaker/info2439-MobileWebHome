@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Clay Caylor | Info2439 | Test Dynamic</title>
+    <meta charset="utf-8">
+  	<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+  	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+  </head>
+
+  <body>
+  <!--
+    Clay Caylor
+    test_dyn.html
+    Info2439.8A
+    Brown
+    10/25/2017
+  -->
+    <div data-role="page" id="homepage">
+
+      <div data-role="header">
+        <h1>Dynamic Pages</h1>
+      </div>
+
+      <div role="main" class="ui-content" id="contentDiv">
+
+        <ul id="peopleList" data-role="listview" data-inset="true"></ul>
+
+    	</div>
+
+    </div>
+
+    <script>
+
+      $("#homepage").bind("pagebeforecreate", function(e) {
+      	//load in our people
+      	$.get("people.json", {}, function(res,code) {
+      		var s = "";
+      		for (var i = 0; i < res.length; i++) {
+      			s+="<li><a href='test_people.html?id="+res[i].id+"'>"+
+      			res[i].name+"</a></li>";
+      		}
+      		$("#peopleList").html(s).listview("refresh");
+      	}, "json");
+
+      });
+
+      $(document).on("pagecontainerbeforeshow", function(e) {
+      	console.log('pagecontainerbeforeshow');
+
+      	var page = $.mobile.pageContainer.pagecontainer("getActivePage")[0];
+      	var parts = $.mobile.path.parseLocation();
+      	if(parts.pathname.indexOf("test_people") >= 0) {
+
+      		var thisId = parts.search.split("=")[1];
+      		$.get("person"+thisId+".json", {}, function(res, code) {
+      			$("h1",page).text(res.name);
+      			s = "<p>"+res.name+
+      			" is a "+res.gender+" and likes "+res.hobbies+"</p>";
+      			$("#contentArea", page).html(s);
+      		}, "json");
+
+      	}
+
+      });
+
+    </script>
+
+  </body>
+
+</html>

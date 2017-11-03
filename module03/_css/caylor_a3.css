@@ -1,0 +1,14 @@
+/* Clay Caylor
+  caylor_a3.css
+  Info2439.8A
+  Brown
+  09/27/2017
+*/
+
+.ui-header, .ui-footer, .ui-btn {font-family: 'Saira', sans-serif;}
+
+.ui-content {font-family: 'Raleway', sans-serif;}
+
+.ui-footer {font-style: italic;}
+
+.ui-bar-a {border-color: DarkOrange;}
