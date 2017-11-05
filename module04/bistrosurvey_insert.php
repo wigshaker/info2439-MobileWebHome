@@ -11,9 +11,9 @@ error_reporting(-1);
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-  <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
-  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="..\_jqMobile\jquery.mobile-1.4.5.min.css">
+  <script src="..\_jqMobile\jquery-2.1.3.min.js"></script>
+  <script src="..\_jqMobile\jquery.mobile-1.4.5.min.js"></script>
   <script src="phonegap.js"></script>
   <link rel="stylesheet" href="_css/sagesurvey.css">
   <link rel="stylesheet" href="_css/sagesurvey.jqmt.min.css">
