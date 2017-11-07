@@ -9,8 +9,8 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.claycaylor.info2439"
-    version     = "0.9.0"
-    versionCode = "09" >
+    version     = "0.10.0"
+    versionCode = "010" >
 
 <!-- versionCode is optional and Android only -->
 
