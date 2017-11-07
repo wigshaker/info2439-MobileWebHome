@@ -9,8 +9,8 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.claycaylor.info2439"
-    version     = "0.1.0"
-    versionCode = "01" >
+    version     = "0.9.0"
+    versionCode = "09" >
 
 <!-- versionCode is optional and Android only -->
 
@@ -55,12 +55,7 @@
   <splash src="splash.png" />
 
   <!-- Define access to external domains. -->
-  <access origin="*fonts.googleapis.com" subdomains="true" />
-  <access origin="*maps.googleapis.com" subdomains="true" />
-  <access origin="*.mccinfo.net" subdomains="true" />
-  <access origin="*.mccneb.edu" subdomains="true" />
-  <access origin="*.facebook.com" subdomains="true" />
-  <access origin="*.opentable.com" subdomains="true" />
+  <access origin="*" subdomains="true" />
 
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
