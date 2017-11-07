@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.claycaylor.info2439"
+    version     = "0.1.0"
+    versionCode = "01" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Info2439 Hybrid Home</name>
+
+  <description>
+      The hybrid app version of Clay Caylor's webapp for MCC Info2439.
+  </description>
+
+  <author email="cccayloriii@mail.mccneb.edu">
+      Clay Caylor
+  </author>
+
+  <platform name="android" />
+
+  <!-- Customize your app and platform with the preference element. -->
+  <preference name="orientation"                value="default" />
+  <preference name="target-device"              value="universal" />
+  <preference name="fullscreen"                 value="false" />
+  <preference name="android-installLocation"    value="auto" />
+  <preference name="webviewbounce"              value="false"/>
+  <preference name="DisallowOverscroll"         value="false"/>
+  <preference name="disallowOverscroll"         value="false"/>
+
+  <!-- Core plugins -->
+  <plugin name="cordova-plugin-splashscreen" />
+  <plugin name="cordova-plugin-vibration" />
+
+  <!-- Define app icon for each platform. -->
+  <icon src="apple-touch-icon-57x57.png"   platform="android" qualifier="mdpi" />
+  <icon src="apple-touch-icon-72x72.png"   platform="android" qualifier="hdpi" />
+  <icon src="apple-touch-icon-114x114.png" platform="android" qualifier="xhdpi" />
+  <icon src="apple-touch-icon-144x144.png" platform="android" qualifier="xxhdpi" />
+  <icon src="apple-touch-icon-196x196.png" platform="android" qualifier="xxxhdpi" />
+
+  <!-- Define app splash screen for each platform. -->
+  <splash src="splash.png" />
+
+  <!-- Define access to external domains. -->
+  <access origin="*fonts.googleapis.com" subdomains="true" />
+  <access origin="*maps.googleapis.com" subdomains="true" />
+  <access origin="*.mccinfo.net" subdomains="true" />
+  <access origin="*.mccneb.edu" subdomains="true" />
+  <access origin="*.facebook.com" subdomains="true" />
+  <access origin="*.opentable.com" subdomains="true" />
+
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-intent href="tel:*"/>
+  <allow-intent href="sms:*"/>
+  <allow-intent href="mailto:*"/>
+  <allow-intent href="geo:*"/>
+
+</widget>
