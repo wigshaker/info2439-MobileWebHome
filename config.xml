@@ -24,6 +24,8 @@
       Clay Caylor
   </author>
 
+  <content src="default.html" />
+
   <platform name="android" />
 
   <!-- Customize your app and platform with the preference element. -->
