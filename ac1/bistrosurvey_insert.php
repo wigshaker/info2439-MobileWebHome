@@ -11,13 +11,13 @@ error_reporting(-1);
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="..\_jqMobile\jquery.mobile-1.4.5.min.css">
-  <script src="..\_jqMobile\jquery-2.1.3.min.js"></script>
-  <script src="..\_jqMobile\jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="..\jqMobile\jquery.mobile-1.4.5.min.css">
+  <script src="..\jqMobile\jquery-2.1.3.min.js"></script>
+  <script src="..\jqMobile\jquery.mobile-1.4.5.min.js"></script>
   <script src="phonegap.js"></script>
   <link rel="stylesheet" href="themes/sageTheme1.min.css"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo%7CSource+Sans+Pro">
-  <link rel="stylesheet" href="_css/master.css">
+  <link rel="stylesheet" href="css/master.css">
   <title>Sage Customer Survey Response</title>
 </head>
 <body>
@@ -29,7 +29,7 @@ error_reporting(-1);
 <div data-role="page" id="homePage">
     <div data-role="header" data-position="fixed">
       <a href="#panelhome" data-icon="bars" data-iconpos="notext" data-iconshadow="false" class="ui-nodisc-icon"></a>
-      <img src="_images/mccLogo.png" alt="footer logo" height="28px" width="102px">
+      <img src="images/mccLogo.png" alt="footer logo" height="28px" width="102px">
     </div><!-- closing header div -->
 
     <div data-role="content">
@@ -112,7 +112,7 @@ error_reporting(-1);
 
 	?>
 
-      <img src="_images/sageLogo.png" alt="sage logo" class="logo">
+      <img src="images/sageLogo.png" alt="sage logo" class="logo">
 
       <div class="placemat">
     	  <h2>Sage Bistro Customer Survey Response</h2>

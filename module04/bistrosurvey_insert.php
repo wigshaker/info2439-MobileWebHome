@@ -11,13 +11,13 @@ error_reporting(-1);
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="..\_jqMobile\jquery.mobile-1.4.5.min.css">
-  <script src="..\_jqMobile\jquery-2.1.3.min.js"></script>
-  <script src="..\_jqMobile\jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="..\jqMobile\jquery.mobile-1.4.5.min.css">
+  <script src="..\jqMobile\jquery-2.1.3.min.js"></script>
+  <script src="..\jqMobile\jquery.mobile-1.4.5.min.js"></script>
   <script src="phonegap.js"></script>
-  <link rel="stylesheet" href="_css/sagesurvey.css">
-  <link rel="stylesheet" href="_css/sagesurvey.jqmt.min.css">
-  <link rel="stylesheet" href="_css/jquery.mobile.icons.min.css">
+  <link rel="stylesheet" href="css/sagesurvey.css">
+  <link rel="stylesheet" href="css/sagesurvey.jqmt.min.css">
+  <link rel="stylesheet" href="css/jquery.mobile.icons.min.css">
   <title>Sage Customer Survey Response</title>
 </head>
 <body>
@@ -120,7 +120,7 @@ error_reporting(-1);
 	</div> <!-- closing content div -->
 
 	<div data-role="footer" data-position="fixed">
-		<img src="_images/mcc-logo-bistro.png" width="155" height="42" alt="MCC Logo"/>
+		<img src="images/mcc-logo-bistro.png" width="155" height="42" alt="MCC Logo"/>
 	</div><!-- closing footer div -->
 
 </div><!-- closing page div -->

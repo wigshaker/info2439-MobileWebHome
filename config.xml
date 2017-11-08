@@ -4,13 +4,13 @@
   config.xml
   Info2439.8A
   Brown
-  11/07/2017
+  11/08/2017
 -->
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.claycaylor.info2439"
-    version     = "0.10.0"
-    versionCode = "010" >
+    version     = "1.0.0"
+    versionCode = "100" >
 
 <!-- versionCode is optional and Android only -->
 
