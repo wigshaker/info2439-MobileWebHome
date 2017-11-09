@@ -54,7 +54,7 @@
   <!-- Define app splash screen for each platform. -->
   <splash src="splash.png" />
 
-  <!-- Define access to external domains. -->
+  <!-- Define access to external domains.
   <access origin="*" subdomains="true" />
 
   <allow-intent href="http://*/*"/>
@@ -62,6 +62,6 @@
   <allow-intent href="tel:*"/>
   <allow-intent href="sms:*"/>
   <allow-intent href="mailto:*"/>
-  <allow-intent href="geo:*"/>
+  <allow-intent href="geo:*"/> -->
 
 </widget>
