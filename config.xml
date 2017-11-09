@@ -43,7 +43,6 @@
   <!-- Core plugins -->
   <plugin name="cordova-plugin-splashscreen" />
   <plugin name="cordova-plugin-vibration" />
-  <plugin name="cordova-plugin-document-viewer" />
 
   <!-- Define app icon for each platform. -->
   <icon src="apple-touch-icon-57x57.png"   platform="android" qualifier="mdpi" />
