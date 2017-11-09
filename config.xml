@@ -9,8 +9,8 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.claycaylor.info2439"
-    version     = "1.0.0"
-    versionCode = "100" >
+    version     = "1.0.1"
+    versionCode = "101" >
 
 <!-- versionCode is optional and Android only -->
 
@@ -43,6 +43,7 @@
   <!-- Core plugins -->
   <plugin name="cordova-plugin-splashscreen" />
   <plugin name="cordova-plugin-vibration" />
+  <plugin name="cordova-plugin-document-viewer" />
 
   <!-- Define app icon for each platform. -->
   <icon src="apple-touch-icon-57x57.png"   platform="android" qualifier="mdpi" />
