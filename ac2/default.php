@@ -1,8 +1,10 @@
-<?php include 'header.php'; ?>
+<?php include 'view\header.php'; ?>
 
-      <div role="main" class="ui-content">
+    <div role="main" class="ui-content">
+        <ul data-role="listview" data-inset="true">
+            <li><a href="view/live_view.php">Live Cam</a></li>
+            <li><a href="model/util_txt_import.php">Motion Detection Log</a></li>
+        </ul>
 
-          <img id="mjpeg_dest" src="" width="1280" height="720" alt="Monitor Image"/>
-
-      </div>
-<?php include 'footer.php'; ?>
+    </div>
+<?php include 'view\footer.php'; ?>
